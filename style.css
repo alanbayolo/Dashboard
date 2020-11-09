@@ -1,0 +1,139 @@
+html,
+body{
+	font-family: "Futura Md BT";
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+}
+.container{
+	display: flex;
+	align-items: stretch;
+	align-content: stretch;
+	height: 100%;
+  	min-height: 100%;
+}
+.side-panel{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(#EEF1F8,#FCFCFC);
+	flex-basis: 280px;
+}
+.side-panel-item{
+	color: #434752;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.side-panel-button{
+	text-decoration: none;
+	color: #434752;
+	text-align: left;
+	margin-left: 33%;
+}
+.side-panel-item-2{
+	text-align: center;
+	color: #434752;
+}
+.space{
+	flex-grow: 1;
+}
+.side-panel-item-2 a{
+	align-self: flex-end;
+}
+.big-box{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+.big-box h2{
+	color: #434752;
+	margin-top: 80px;
+	margin-left: 6%;
+}
+.big-box p{
+	color: #B5B5BF;
+	margin-top: 0;
+	margin-left: 6%;
+	font-weight: bold;
+	font-size: 20px;
+}
+.row1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 0;
+}
+.col{
+	font-size: 70px;
+	text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+.row2{
+	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#D{
+	color: #70747C;
+}
+#B{
+	margin-left: 5%;
+	color: #B5B5BF;
+	margin-right: 5%;
+}
+#rctngl1{
+	width: 378px;
+    height: 206px;
+    border-radius: 16px;
+    background-image: linear-gradient(315deg, #FBCF77,#F29573);
+    filter: drop-shadow(0px 15px 15px rgba(125, 64, 28, 0.5));
+}
+#txtp{
+	color: white;
+	font-size: 30px;
+	font-weight: medium;
+	margin-bottom: 0;
+	text-shadow: 0px 10px 45px rgba(0, 0, 0, 0.5);
+}
+#rctngl2{
+	width: 378px;
+    height: 206px;
+    border-radius: 16px;
+    background-image: linear-gradient(315deg, #B9FB77,#73F277);
+    filter: drop-shadow(0px 15px 15px rgba(28, 125, 73, 0.5));
+}
+#rctngl3{
+	width: 378px;
+    height: 206px;
+    border-radius: 16px;
+    background-image: linear-gradient(315deg, #77E9FB,#73B4F2);
+    filter: drop-shadow(0px 15px 15px rgba(28, 112, 125, 0.5));
+}
+#crcl{
+	width: 15px;
+    height: 15px;
+    background-image: linear-gradient(#09D137,#25960A);
+    border:5px solid white;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px rgba(0,0,0,0.5));
+}
+.minibox{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.col2{
+	display: flex;
+	flex-direction: column;
+}
+img{
+	display: block;
+	margin: auto;
+}
+.Disp{
+	color: #434752;
+	font-weight: bold;
+}
