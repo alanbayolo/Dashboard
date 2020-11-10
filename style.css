@@ -1,6 +1,7 @@
 html,
 body{
-	font-family: "Futura Md BT";
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
     margin: 0 !important;
     padding: 0 !important;
     height: 100%;
@@ -33,6 +34,7 @@ body{
 .side-panel-item-2{
 	text-align: center;
 	color: #434752;
+	font-weight: 800;
 }
 .space{
 	flex-grow: 1;
@@ -113,6 +115,14 @@ body{
 	width: 15px;
     height: 15px;
     background-image: linear-gradient(#09D137,#25960A);
+    border:5px solid white;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px rgba(0,0,0,0.5));
+}
+#crcl:hover{
+	width: 15px;
+    height: 15px;
+    background-image: linear-gradient(59deg, rgba(226,2,2,1) 0%, rgba(255,175,0,1) 100%);
     border:5px solid white;
     border-radius: 50%;
     filter: drop-shadow(1px 1px 10px rgba(0,0,0,0.5));
