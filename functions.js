@@ -37,8 +37,8 @@ $( document ).ready(function() {
 });
 
 function login(username, password, region, storecreds) {
-	username = "orangebirdcorp@gmail.com";
-	password = "Albaos17";
+	username = "******@gmail.com";
+	password = "********";
 	region = "us";
 	var url = baseurl + "auth.do";
 	var headers = {
@@ -179,8 +179,8 @@ function refresh_token() {
 }
 
 function do_login() {
-	username = "orangebirdcorp@gmail.com";
-	password = "Albaos17";
+	username = "********@gmail.com";
+	password = "********";
 	region = "us";
 	var login_div = document.getElementById("login");
 	login_div.classList.add("hidden");
